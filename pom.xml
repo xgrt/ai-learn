@@ -30,6 +30,7 @@
         <java.version>21</java.version>
         <langchain4j-community.version>1.13.0-beta23</langchain4j-community.version>
         <langchain4j.version>1.13.0</langchain4j.version>
+        <langchain4j.RAG.version>1.13.0</langchain4j.RAG.version>
         <redis.version>4.1.0-M4</redis.version>
         <jackson.version>3.1.2</jackson.version>
     </properties>
@@ -86,6 +87,14 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+
+        <!--
+        //极简版
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-easy-rag</artifactId>
+            <version>${langchain4j-community.version}</version>
+        </dependency>-->
     </dependencies>
 
     <build>
