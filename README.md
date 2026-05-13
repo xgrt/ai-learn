@@ -1,1 +1,1 @@
-Java对接 LangChain4j，学习AI
+学习AI，Java对接 LangChain4j。
